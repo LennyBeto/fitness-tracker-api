@@ -1,0 +1,29 @@
+# Core Django packages
+Django==4.2.9
+djangorestframework==3.14.0
+
+# Authentication
+djangorestframework-simplejwt==5.3.1
+
+# CORS headers for frontend integration
+django-cors-headers==4.3.1
+
+# Environment variables
+python-decouple==3.8
+
+# PostgreSQL adapter
+psycopg2-binary==2.9.9
+
+# For production deployment
+gunicorn==21.2.0
+whitenoise==6.6.0
+
+# Filtering
+django-filter==23.5
+
+# Documentation (optional but recommended)
+drf-yasg==1.21.7
+
+# Testing
+pytest==7.4.3
+pytest-django==4.7.0 
