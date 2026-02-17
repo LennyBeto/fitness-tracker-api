@@ -52,3 +52,7 @@ venv.bak/
 .pytest_cache/
 htmlcov/
 .tox/
+
+# Deployment
+*.pyc
+__pycache__
